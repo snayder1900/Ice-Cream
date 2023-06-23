@@ -1,0 +1,132 @@
+//sección How it is made - Rafa
+.howitismade {
+    background-color: #fff5f6;
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-bottom: 114px;
+  
+    .title-section {
+      margin-bottom: 60px;
+      font-family: var(--title-font);
+      
+    }
+    .target-section {
+      display: flex;
+      // position: relative;
+      background-image: url('./images/sectionbg1-1.png');
+      margin-bottom: 40px;
+      // z-index: 100;
+      .bg-img{
+          position: absolute;
+      }
+      .column {
+        width: 50%;
+        margin-right: 10vw;
+  
+        .main-img {
+          background-image: url('./images/cow.png');
+          margin-bottom: 20px;
+        }
+        .main-description {
+          font-family: DM Sans;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0.04em;
+          text-align: left;
+        }
+        .secondary-description {
+          color: $gray-text-color;
+          font-family: DM Sans;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 27px;
+          letter-spacing: 0.04em;
+          text-align: left;
+        }
+      }
+    }
+  }
+  
+  .readmore-button {
+    height: 44px;
+    width: 176px;
+    background-color: $white-color;
+    border-radius: 22px;
+    color: $main-color;
+    border: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    &:hover {
+      background-color: #ecebeb;
+    }
+  }
+  
+  .origins-list {
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+  
+    .origins-value {
+      width: 288px;
+      flex: 1 1 33%;
+      align-items: start;
+      .icon-value{
+          width: 50px;
+          height: 50px;
+      }
+      .title {
+        display: flex;
+        align-items: start;
+      }
+      .description {
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        width: 288px;
+      }
+    }
+  }
+  
+  li {
+    align-content: left;
+  }
+
+  .h2-how {
+    font-family: Titan One;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #d41443;
+  }
+  
+  .h3-how {
+    font-family: Titan One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffa5ba;
+  }
+  
+  .p-how {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  
