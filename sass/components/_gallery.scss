@@ -1,0 +1,34 @@
+.section-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: -48px;
+  
+    @include for-size(tablet) {
+      margin-top: -107px;
+    }
+  
+    @include for-size(desktop) {
+      margin-top: -171px;
+    }
+    @include for-size(mobile) {
+      width: 320px;
+    }
+  }
+  
+  .gallery {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 170px;
+  
+    @include for-size(tablet) {
+      padding-top: 121px;
+      padding-bottom: 197 px;
+    }
+  
+    @include for-size(desktop) {
+      padding-top: 123px;
+      padding-bottom: 234px;
+    }
+  }

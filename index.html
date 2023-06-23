@@ -145,7 +145,25 @@
     <!--TODO: advantages  -->
     <section></section>
     <!--TODO: gallery - Javier  -->
-    <section></section>
+      <section id="our-products">
+        <div class="section-gallery">
+          <picture>
+            <source srcset="
+                ./images/kollage-desk.png    1x,
+                ./images/kollage-desk@2x.png 2x
+              " media="(min-width: 1200px)" />
+            <source srcset="
+                ./images/kollage-tab.png    1x,
+                ./images/kollage-tab@2x.png 2x
+              " media="(min-width: 768px)" />
+            <source srcset="
+                ./images/kollage-mob.png    1x,
+                ./images/kollage-mob@2x.png 2x
+              " media="(max-width: 480px)" />
+            <img src="./images/kollage-desk.png" alt="collage de fotos con helado" />
+          </picture>
+        </div>
+    </section>
     <!--Todo: Testimonials - Luz  -->
     <section></section>
 
@@ -246,7 +264,7 @@
         </div>
       </div>
     </section>
-
+    
     <footer></footer>
     <script src="./js/menu.js"></script>
   </body>
