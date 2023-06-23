@@ -145,24 +145,30 @@
     <!--TODO: advantages  -->
     <section></section>
     <!--TODO: gallery - Javier  -->
-      <section id="our-products">
-        <div class="section-gallery">
-          <picture>
-            <source srcset="
-                ./images/kollage-desk.png    1x,
-                ./images/kollage-desk@2x.png 2x
-              " media="(min-width: 1200px)" />
-            <source srcset="
-                ./images/kollage-tab.png    1x,
-                ./images/kollage-tab@2x.png 2x
-              " media="(min-width: 768px)" />
-            <source srcset="
-                ./images/kollage-mob.png    1x,
-                ./images/kollage-mob@2x.png 2x
-              " media="(max-width: 480px)" />
-            <img src="./images/kollage-desk.png" alt="collage de fotos con helado" />
-          </picture>
-        </div>
+    <section id="our-products">
+      <div class="section-gallery">
+        <picture>
+          <source
+            srcset="
+              ./images/kollage-desk.png    1x,
+              ./images/kollage-desk@2x.png 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="./images/kollage-tab.png 1x, ./images/kollage-tab@2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="./images/kollage-mob.png 1x, ./images/kollage-mob@2x.png 2x"
+            media="(max-width: 480px)"
+          />
+          <img
+            src="./images/kollage-desk.png"
+            alt="collage de fotos con helado"
+          />
+        </picture>
+      </div>
     </section>
     <!--Todo: Testimonials - Luz  -->
     <section></section>
@@ -264,8 +270,62 @@
         </div>
       </div>
     </section>
-    
-    <footer></footer>
+
+    <!--TODO: Footer - silvia   -->
+    <footer>
+      <section class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <h2 class="footer-tittle_s">
+              homemade ice cream <br />
+              made
+            </h2>
+            <h1 class="fotter-tittle_m">
+              with <br />
+              passion
+            </h1>
+          </div>
+          <div class="footer-right">
+            <ul class="social-svg">
+              <li class="social-svg__item">
+                <svg width="34" height="34">
+                  <use
+                    href="images/svg/sprite.svg#icon-icon-github-footer"
+                  ></use>
+                </svg>
+              </li>
+              <li class="social-svg__item">
+                <svg width="34" height="34">
+                  <use
+                    href="images/svg/sprite.svg#icon-icon-telegram-footer"
+                  ></use>
+                </svg>
+              </li>
+              <li class="social-svg__item">
+                <svg width="34" height="34">
+                  <use
+                    href="images/svg/sprite.svg#icon-icon-facebook-footer"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+            <div>
+              <a class="footer-contact">Feel free to contact</a>
+              <a class="footer-phone" href="tel:+61 (0) 383 766 284">
+                +61 (0) 383 766 284</a
+              >
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class="footer-bootom">
+            <span class="footer-rights"
+              >© 2022 - IceCream. All Rights Reserved.
+            </span>
+          </div>
+        </section>
+      </section>
+    </footer>
     <script src="./js/menu.js"></script>
   </body>
 </html>
