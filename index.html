@@ -15,7 +15,129 @@
   </head>
   <body>
     <!--TODO: Header - Snayder  -->
-    <header></header>
+    <header class="header">
+      <div class="container container-header">
+        <div class="container-icons">
+          <a class="logo" href="#">
+            <svg class="logo__icon">
+              <use href="./images/svg/sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <nav class="navbar-desktop" data-navbar>
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">About us</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">How it's made?</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">Our products</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="hamburger">
+            <svg class="hamburger--open">
+              <use href="./images/svg/sprite.svg#icon-Burger"></use>
+            </svg>
+            <svg class="hamburger--close">
+              <use href="./images/svg/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <button class="buy--td">
+            Buy now
+            <span class="buy__span">
+              <svg class="buy__icon">
+                <use href="./images/svg/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <nav class="navbar" data-navbar>
+          <button class="buy">
+            Buy now
+            <span class="buy__span">
+              <svg class="buy__icon">
+                <use href="./images/svg/sprite.svg#icon-Vector-1"></use>
+              </svg>
+            </span>
+          </button>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">About us</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">How it's made?</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">Our products</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="hero__circle"></div>
+          <img
+            class="hero__image"
+            src="./images/heladoheader.png"
+            alt="Foto de helado en el hero"
+          />
+          <div class="hero-text__container">
+            <h1 class="hero-text__title">
+              ice cream made with <span class="hero-text--span">passion</span>
+            </h1>
+            <button class="hero-text--product">Products</button>
+            <button class="hero-text--how">How it’s made?</button>
+          </div>
+          <img
+            class="hero__image--milk"
+            src="./images/jarraheader.png"
+            alt="imagen de tarro de leche"
+          />
+          <div class="hero-text">
+            <p class="hero-text__description">
+              Indulge in a scoop of ice cream made with passion and treat your
+              taste buds to an unforgettable experience!
+            </p>
+            <img
+              class="hero-text__arrow"
+              src="./images/arrowright.jpg"
+              alt="imagen de icono de flecha apuntando hacia la derecha"
+            />
+          </div>
+          <div class="hero-number">
+            <div class="hero-number__container">
+              <div class="hero-number__circle"></div>
+              <p class="hero-number__text">16</p>
+              <p class="hero-number__description">cafes</p>
+            </div>
+            <div class="hero-number__container">
+              <div class="hero-number__circle"></div>
+              <p class="hero-number__text">16</p>
+              <p class="hero-number__description hero-number--food">
+                food trucks
+              </p>
+            </div>
+          </div>
+          <img
+            class="hero-image__chica"
+            src="./images/chicaheader.png"
+            alt="Imagen de chica comiendo helado"
+          />
+        </div>
+      </div>
+    </header>
     <!--TODO: Products - Wilson  -->
     <section></section>
     <!--TODO: about,  - RAFA -->
@@ -23,12 +145,127 @@
     <!--TODO: advantages  -->
     <section></section>
     <!--TODO: gallery - Javier  -->
-    <section></section>
+      <section id="our-products">
+        <div class="section-gallery">
+          <picture>
+            <source srcset="
+                ./images/kollage-desk.png    1x,
+                ./images/kollage-desk@2x.png 2x
+              " media="(min-width: 1200px)" />
+            <source srcset="
+                ./images/kollage-tab.png    1x,
+                ./images/kollage-tab@2x.png 2x
+              " media="(min-width: 768px)" />
+            <source srcset="
+                ./images/kollage-mob.png    1x,
+                ./images/kollage-mob@2x.png 2x
+              " media="(max-width: 480px)" />
+            <img src="./images/kollage-desk.png" alt="collage de fotos con helado" />
+          </picture>
+        </div>
+    </section>
     <!--Todo: Testimonials - Luz  -->
     <section></section>
+
     <!-- TODO: Contact - katy -->
-    <section></section>
-    <!--TODO: Footer - silvia   -->
+    <section class="contact">
+      <div class="contact__container">
+        <div class="contact__list">
+          <div class="contact__card">
+            <h4 class="contact__cafe">CAFE</h4>
+
+            <div class="contact__location">
+              <p class="contact__location-place">Chicago</p>
+              <p class="contact__location-text">
+                Handcrafted coffee, baked goods, and premium ice cream.
+              </p>
+            </div>
+
+            <div class="contact__schedule">
+              <p class="contact__schedule-days">Monday - Friday</p>
+              <p class="contact__schedule-time">06:00 AM - 10:00 PM</p>
+              <p class="contact__schedule-days">Saturday - Sunday</p>
+              <p class="contact__schedule-time">08:00 AM - 16:00 PM</p>
+            </div>
+
+            <div class="contact__info">
+              <a class="contact__info-link" href="tel:+610383766284"
+                >+61(0) 383 766 284</a
+              >
+              <a class="contact__info-link" href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+
+          <div class="contact__card">
+            <h4 class="contact__foodtruck">FOOD TRUCK</h4>
+
+            <div class="contact__location">
+              <p class="contact__location-place">Los Angeles</p>
+              <p class="contact__location-text">
+                Fusion cuisine and refreshing ice cream made with passion.
+              </p>
+            </div>
+
+            <div class="contact__schedule">
+              <p class="contact__schedule-days">Monday - Friday</p>
+              <p class="contact__schedule-time">06:00 AM - 10:00 PM</p>
+              <p class="contact__schedule-days">Saturday - Sunday</p>
+              <p class="contact__schedule-time">08:00 AM - 16:00 PM</p>
+            </div>
+
+            <div class="contact__info">
+              <a class="contact__info-link" href="tel:+610383766284 "
+                >+61(0) 383 766 284
+              </a>
+              <a class="contact__info-link" href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+
+          <div class="contact__card">
+            <h4 class="contact__cafe">CAFE</h4>
+
+            <div class="contact__location">
+              <p class="contact__location-place">New York</p>
+              <p class="contact__location-text">
+                Specialty teas, artisanal pastries, mouth-watering ice cream.
+              </p>
+            </div>
+
+            <div class="contact__schedule">
+              <p class="contact__schedule-days">Monday - Friday</p>
+              <p class="contact__schedule-time">06:00 AM - 10:00 PM</p>
+              <p class="contact__schedule-days">Saturday - Sunday</p>
+              <p class="contact__schedule-time">08:00 AM - 16:00 PM</p>
+            </div>
+
+            <div class="contact__info">
+              <a class="contact__info-link" href="tel:+610383766284"
+                >+61(0) 383 766 284</a
+              >
+              <a class="contact__info-link" href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__buttons">
+          <button class="contact__button-location" type="button">
+            Our Locations >
+          </button>
+
+          <button class="contact__button-franchise" type="button">
+            Franchise >
+          </button>
+        </div>
+      </div>
+    </section>
+    
     <footer></footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
