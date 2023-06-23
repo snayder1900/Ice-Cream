@@ -1,9 +1,10 @@
-@import "./utils/variables";
-@import "./utils/mixins";
-@import  "./components/header";
-@import "./components/contact";
-@import  "./components/gallery";
-
+@import './utils/variables';
+@import './utils/mixins';
+@import './components/header';
+@import './components/contact';
+@import './components/gallery';
+@import './components/footer';
+@import './components/testimonials';
 
 body {
   font-family: 'DM Sans', sans-serif;
@@ -36,8 +37,3 @@ img {
   padding: 0 16px;
   width: 1200px;
 }
-
-
-
-
-
