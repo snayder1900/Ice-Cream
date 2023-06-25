@@ -1,12 +1,12 @@
 @import './utils/variables';
 @import './utils/mixins';
 @import './components/header';
+@import './components/product';
 @import './components/contact';
 @import './components/gallery';
 @import './components/footer';
 @import './components/testimonials';
 @import './components/about';
-@import './components/products';
 
 body {
   font-family: 'DM Sans', sans-serif;

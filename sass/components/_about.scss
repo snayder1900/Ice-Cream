@@ -4,6 +4,7 @@
     padding-top: 60px;
     padding-left: 16px;
     padding-bottom: 114px;
+    margin-top: 60px;
   
     .title-section {
       margin-bottom: 60px;
@@ -26,6 +27,10 @@
         .main-img {
           background-image: url('./images/cow.png');
           margin-bottom: 20px;
+        }
+        .main-img__vaca {
+          max-width: 501px;
+          height: 501px;
         }
         .main-description {
           font-family: DM Sans;
