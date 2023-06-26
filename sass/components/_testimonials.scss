@@ -7,20 +7,27 @@
     justify-content: center;
   }
 
+  &-paragraph__group {
+    display: flex;
+    justify-content: center;
+  }
+
   &-paragraph {
     color: #000000;
-    padding: 10px;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.04em;
     text-align: center;
+    width: 750px;
+    height: 52px;
   }
 
   &-icon {
-    position: absolute;
-    margin: -8px 300px;
+    position: relative;
+    width: 54px;
+    height: 40px;
   }
 
   &-dots {
@@ -35,7 +42,7 @@
     justify-content: center;
     gap: 5px;
     font-family: DM Sans;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
@@ -55,5 +62,89 @@
     align-items: center;
     fill: #c7133e;
     gap: 10px;
+  }
+}
+
+// Media query 768 tablets----------------------------
+
+@media (max-width: 768px) {
+  .testimonials {
+    width: 768px;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+
+    &-group {
+      display: flexbox;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      padding-top: 50px;
+    }
+
+    &-name {
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+
+    &-paragraph {
+      font-size: 14px;
+      width: 492px;
+    }
+  }
+}
+
+// Media query 320 mobile----------------------------
+
+@media (max-width: 320px) {
+  .testimonials {
+    width: 320px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+
+    &-img {
+      margin: unset;
+      display: unset;
+      position: absolute;
+      margin: 50px;
+    }
+
+    &-name {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 15px;
+      gap: unset;
+    }
+
+    &-paragraph__group {
+      position: absolute;
+      margin-left: 20px;
+      margin-top: 200px;
+    }
+
+    &-paragraph {
+      font-size: 12px;
+      width: 157px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      text-align: center;
+      height: unset;
+    }
+
+    &-icon {
+      position: absolute;
+      margin-right: 100px;
+      margin-top: -20px;
+    }
+
+    &-group {
+      display: flexbox;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      padding-top: 400px;
+      width: 172px;
+    }
   }
 }
